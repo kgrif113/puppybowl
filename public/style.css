@@ -1,0 +1,60 @@
+body {
+  background-image: url(./puppypattern.jpeg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  background-color: orange;
+  font-family: "Vast Shadow", cursive;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  border-radius: 10px;
+  margin: 2vh;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  border-radius: 30px;
+  margin: auto;
+}
+
+#container {
+  scroll-behavior: smooth;
+  padding: 5vh 5vw 5vh 5vw;
+  width: 60vw;
+  height: 80vh;
+  overflow: scroll;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+.names {
+  font-size: x-large;
+  font-family: "Vast Shadow", cursive;
+  margin-top: 5vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.breeds {
+  text-align: center;
+  font-family: "Vast Shadow", cursive;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
+  font-size: large;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
